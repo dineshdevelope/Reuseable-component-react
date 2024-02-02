@@ -9,6 +9,7 @@ import MainPage from "./components/Main.jsx";
 import Navbar from "./components/Navbar.jsx";
 import ErrorPageFound from "./components/ErrorPage.jsx";
 import MenuPage from "./components/MenuPage.jsx";
+import HTMLPage from "./components/HTML.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,10 +32,10 @@ const router = createBrowserRouter([
         path: "/menu",
         element: <MenuPage />,
       },
-      /*  {
-        path: "*",
-        element: <ErrorPageFound />,
-      }, */
+      {
+        path: "/HTML",
+        element: <HTMLPage />,
+      },
     ],
     errorElement: <ErrorPageFound />,
   },

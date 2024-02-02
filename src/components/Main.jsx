@@ -5,12 +5,15 @@ const MainPage = () => {
   console.log(name);
   return (
     <div>
-      <h1 className="max-w-md bg-red-300 text-center p-10 mx-auto">
-        This Is About Content Content
-      </h1>
-      <h1 className="max-w-md bg-red-200 text-center p-10 mx-auto">
-        Welcome To This Page {name ? name : "Guest"}
-      </h1>
+      <div>
+        <h1 className="bg-blue-200 font-serif text-2xl text-center p-1">
+          Welcome to the Dominoids webshop!
+        </h1>
+        <img
+          src="https://www.dominoids-shop.com/media/wysiwyg/Dominos/pizza_bannerr2.jpg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

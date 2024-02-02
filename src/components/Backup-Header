@@ -1,0 +1,23 @@
+import arrayFormat from "../data/blog.json"; const Headers = () => { const
+mapMethod = arrayFormat.map((map) => { return (
+<div
+  className="bg-white p-5 rounded flex items-center space-x-10 mb-5"
+  key="{map.id}"
+>
+  <img
+    src="https://www.abrilliants.com/wp-content/uploads/2023/05/1631110818-logo-react-js.png"
+    alt="React Js Logo"
+    className="w-28"
+  />
+  <div className="space-y-2">
+    <h1>{map.name}</h1>
+    <h1>{map.desc}</h1>
+  </div>
+</div>
+); }); return (
+<div className=" bg-green-100">
+  <h4 className="text-2xl font-extralight mb-5 ">Blogs</h4>
+
+  {mapMethod}
+</div>
+); }; export default Headers;
