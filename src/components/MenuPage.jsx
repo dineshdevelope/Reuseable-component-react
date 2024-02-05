@@ -14,8 +14,9 @@ const MenuPage = () => {
       </div>
       <div className="flex justify-center p-3">
         <img
-          src="https://www.dominoids-shop.com/media/wysiwyg/Dominos/0003_Dominos_Voucher_Visual_Pete_cadeau_1_.jpg"
+          src="https://blog.zegocloud.com/wp-content/uploads/2022/09/shutterstock_2089535749-scaled.jpg"
           alt=""
+          className="w-full rounded-2xl"
         />
       </div>
     </>

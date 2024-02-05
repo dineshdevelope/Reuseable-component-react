@@ -6,9 +6,7 @@ const Navbar = () => {
     <div>
       <div className="p-5 bg-blue-700">
         <div className="flex justify-between">
-          <div className="text-2xl font-semibold text-white">
-            Domino's Shop Location Finding App
-          </div>
+          <div className="text-2xl font-semibold text-white">Dinesh Blog's</div>
           <div>
             <ul className="flex  justify-end space-x-10 font-semibold ">
               <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
@@ -19,6 +17,9 @@ const Navbar = () => {
               </li>
               <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
                 <Link to={"/menu"}>GitHub</Link>
+              </li>
+              <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
+                <Link to={"/followers"}>Followers</Link>
               </li>
             </ul>
           </div>
