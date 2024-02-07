@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/Header";
-import MainPage from "../components/Main";
+
 import Navbar from "../components/Navbar";
 
 const GuestLayout = () => {

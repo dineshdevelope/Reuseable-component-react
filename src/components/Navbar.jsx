@@ -6,20 +6,19 @@ const Navbar = () => {
     <div>
       <div className="p-5 bg-blue-700">
         <div className="flex justify-between">
-          <div className="text-2xl font-semibold text-white">Dinesh Blog's</div>
+          <div className="text-2xl font-semibold text-white">
+            React Component's
+          </div>
           <div>
             <ul className="flex  justify-end space-x-10 font-semibold ">
               <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
                 <Link to={"/"}>Home</Link>
               </li>
               <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
-                <Link to={"/about"}>About</Link>
+                <Link to={"/about"}>FAQs</Link>
               </li>
               <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
-                <Link to={"/menu"}>GitHub</Link>
-              </li>
-              <li className="bg-white p-2 rounded hover:bg-gray-800 hover:text-white">
-                <Link to={"/followers"}>Followers</Link>
+                <Link to={"/menu"}>Components</Link>
               </li>
             </ul>
           </div>

@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import GuestLayout from "./layouts/Guest.jsx";
 import Header from "./components/Header.jsx";
 import MainPage from "./components/Main.jsx";
-import Navbar from "./components/Navbar.jsx";
+
 import ErrorPageFound from "./components/ErrorPage.jsx";
 import MenuPage from "./components/MenuPage.jsx";
-import HTMLPage from "./components/HTML.jsx";
+
 import FollowersPage from "./components/FollowersPage.jsx";
 
 const router = createBrowserRouter([
@@ -33,10 +33,7 @@ const router = createBrowserRouter([
         path: "/menu",
         element: <MenuPage />,
       },
-      {
-        path: "/HTML",
-        element: <HTMLPage />,
-      },
+
       {
         path: "/followers",
         element: <FollowersPage />,
